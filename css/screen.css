@@ -1,3 +1,13 @@
 body {
-    background: turquoise;
+    background: lightseagreen;
+}
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+
+img {
+    max-width: 100%;
+    vertical-align: top;
 }
