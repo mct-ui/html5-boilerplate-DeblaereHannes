@@ -24,10 +24,6 @@ html {
     text-shadow: none;
 }
 
-
-body {
-    background-color: gray;
-}
 /*
     Elements: Images
     ---
@@ -128,6 +124,25 @@ a:active {
 a:hover,
 a:focus {
     color: crimson;
+}
+
+table {
+    width: 100px;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.odd {
+    background-color: whitesmoke;
 }
 
 /*
